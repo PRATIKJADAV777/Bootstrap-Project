@@ -1,0 +1,963 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Bootstrap Project 1</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Font Awsome Cdn Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+
+  <!-- Stylshit Link -->
+  <!-- <link rel="stylesheet" href="Css/headline2.css"> -->
+  <link rel="stylesheet" href="Css/style.css">
+  <!-- <link rel="stylesheet" href="Css/reset.css"> -->
+
+  <!-- Google Font Link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Pacifico&family=Poppins:wght@300&family=Prata&family=Raleway:wght@700&family=Zilla+Slab:wght@300;500&display=swap"
+    rel="stylesheet">
+
+  <!-- Script For Jquery -->
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+
+  <!-- Animated Css Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!-- Wow JS Cdn Link -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+  <!-- Font Awsome Cdn Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+</head>
+
+<body>
+
+  <div class="container-fluid">
+
+    <!-- Top Contact Section -->
+    <div class="row bg-dark text-white p-2 text-center justify-content-center fs-6x">
+
+      <div class="col col-xl-2
+            text-center d-flex col-lg-3 col-md-6 col-sm-6 justify-content-center">
+        <span class="round border rounded-circle p-2"><i class="fa-solid fa-phone-volume"></i></span>
+        <p id="top-email-position">1800-00-12</p>
+      </div>
+
+      <div class="col col-xl-4 col-md-6  col-lg-3 col-sm-6  d-flex align-items-center">
+        <span class="round border rounded-circle p-2 "><i class="fa-solid fa-envelope"></i></span>
+        <p id="top-email-position">Info@domain.com</p>
+      </div>
+
+      <div class="col-6 col-xl-5 col-lg-4 top-icon-section fs-5 d-none d-lg-block">
+        <span class="round"> <i class="fa-brands fa-twitter"></i></span>
+        <span class="round"> <i class="fa-brands fa-facebook"></i></span>
+        <span class="round"><i class="fa-brands fa-linkedin"></i></span>
+        <span class="round"><i class="fa-brands fa-instagram"></i></span>
+      </div>
+    </div>
+
+    <!-- Nav Bar -->
+    <nav " class="animate__animated">
+
+      <div class="row border justify-content-center align-items-center row-num-2 nav nav-tabs" role="tablist">
+        <div class="col col-xl-7 navbar-brand ">
+          <a href=""> <img src="./Images/logo.png" alt=""></a>
+        </div>
+
+        <!-- Button -->
+        <button type="button" class="col-1 badge bg-transparent border-0 d-block d-md-none img-fluid dropbtn"
+          data-bs-target="#canvas" data-bs-toggle="offcanvas"><img
+            src="https://cdn-icons-png.flaticon.com/512/6995/6995971.png" width="20px" alt=""></button>
+
+        <div class="col col-xl-1  col-lg-1 col-md-2 d-none d-md-block menu">
+          <a href="#" id="home-click">Home</a>
+          <div class="dropcontent ">
+            <a href="">Item 1</a>
+            <span class="dropline"></span>
+            <a href="">Item 2</a>
+            <span class="dropline"></span>
+            <a href="">Item 3</a>
+            <span class="dropline"></span>
+          </div>
+        </div>
+        <div class="col col-xl-1 col-lg-1 col-md-2 d-none d-md-block menu">
+          <a href="#">About</a>
+        </div>
+        <div class="col col-xl-1 col-lg-1 col-md-2 d-none d-md-block menu ">
+          <a href="#">Contect</a>
+        </div>
+        <div class="col col-xl-1  col-lg-1 col-md-2 d-none d-md-block menu">
+          <a href="#">Blog</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Offcanvas -->
+  <div class="offcanvas offcanvas-start" id="canvas">
+
+    <!-- Offcanvas Header -->
+    <div class="offcanvas-header ">
+      <h3>Side Menu</h3>
+      <button type="button" class="btn btn-close" data-bs-dismiss="offcanvas"></button>
+    </div>
+
+    <!-- Offcanvas Body -->
+    <div class="offcanvas-body">
+      <div class="offcan-menu">
+
+        <!-- Side Drop Menu -->
+        <div class="side-drop-menu">
+          <a href="">Home</a>
+          <div class="sidedrop">
+            <a href="">SideDrop 1</a>
+            <a href="">SideDrop 2</a>
+            <a href="">SideDrop 3</a>
+            <a href="">SideDrop 4</a>
+            <a href="">SideDrop 5</a>
+          </div>
+        </div>
+        <!-- Side Drop Menu -->
+        <div class="side-drop-menu">
+          <a href="">About</a>
+          <div class="sidedrop">
+            <a href="">About 1 </a>
+            <a href="">About 2 </a>
+            <a href="">About 3 </a>
+            <a href="">About 4 </a>
+            <a href="">About 5 </a>
+          </div>
+        </div>
+        <!-- Side Drop Menu -->
+        <div class="side-drop-menu">
+          <a href="">Other</a>
+        </div>
+        <div class="side-drop-menu">
+          <a href="">Services</a>
+        </div>
+        <div class="side-drop-menu">
+          <a href="">Blog</a>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- First Banner  -->
+  <div class="container-fluid p-0">
+    <div class="row m-0 p-0 banrow">
+      <div class="col-12 p-0 m-0  position-relative  bancol h-auto">
+
+        <!-- Banner Iamage -->
+        <img src="./Images/Banner1.png" alt="" class="img-fluid w-100 border">
+
+        <!-- Banner Internal content -->
+        <div class="banner-content  wow animate__animated animate__flipInX ">
+          <h1 class="w-75"> <span class="text-warning">W</span>orld Class Providing Best Interior Design</h1><br>
+          <p>Increase Productivity With A Simple To-Do Managing Your Personal Budgets.lorem2</p>
+          <p class=" w-75  ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quasi aspernatur
+            architecto tenetur, dicta eligendi sequi mollitia temporibus! Possimus veritatis</p>
+          <button type="button " class="btn btn-white border rounded-pill ps-3 pe-3 ps-md-4 pe-md-4 mt-lg-4  addbtn">Add
+            to Cart</button>
+
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Services Count Section -->
+
+  <div data-bs-spy="scroll" data-bs-target="#header111" class="scrollspy-example">
+
+    <div class="container-fluid  position-relative sevicecont">
+
+      <!-- Experiance and etc Counts -->
+      <div class="row">
+        <div class="col border text-center wow animate__animated animate__flipInX">
+          <h1 class="count">12<span class="align-text-top">6</span>5</h1>
+          <h6>Projects</h6>
+        </div>
+        <div class="col  border text-center wow animate__animated animate__flipInX">
+          <h2 class="count">10000</h2>
+          <h6>Clients</h6>
+        </div>
+        <div class="col border text-center wow animate__animated animate__flipInX">
+          <h2>9<span class="align-text-top">4</span></h2>
+          <h6>Engineer</h6>
+        </div>
+        <div class="col border text-center wow animate__animated animate__flipInX">
+          <h2><span class="align-text-top">9</span>0</h2>
+          <h6>Experience</h6>
+        </div>
+      </div>
+
+      <!-- Interior Service Heading -->
+      <div class="row  p-4 text-center wow animate__animated animate__backInLeft">
+        <div class="col">
+          <h1>Our Interior Services</h1>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- facilitice And Services -->
+    <div class="container-fluid">
+      <div class="row text-center justify-content-center">
+
+        <div class="col-12 border m-3  col-lg-3 col-md-3 col-sm-5 wow animate__animated animate__lightSpeedInLeft ">
+          <img src="https://cdn-icons-png.flaticon.com/128/2984/2984892.png" class="img-fluid mt-3" width="80px"
+            alt="error4044">
+          <div class="interior-content-details">
+
+            <h5 class="m-2">Interior Work</h5>
+
+            <p class="m-2">Lorem ipsum dolor sit amet., ipsum. ipsum dolor sit amet consectetur.</p>
+          </div>
+        </div>
+
+        <div class="col-12 border m-3 col-lg-4 col-md-4 col-sm-5 wow animate__animated animate__rotateInDownRight">
+          <img src="https://cdn-icons-png.flaticon.com/128/837/837096.png" class="img-fluid mt-3" width="80px"
+            alt="error4044">
+          <div class="interior-content-details">
+
+            <h5 class="m-2">Light Decoration</h5>
+
+            <p class="m-2">Lorem ipsum dolor sit amet., ipsum. ipsum dolor sit amet consectetur.</p>
+          </div>
+        </div>
+
+        <div class="col-12 border m-3 col-lg-3 col-md-3 col-sm-7  wow animate__animated animate__lightSpeedInRight">
+          <img src="https://cdn-icons-png.flaticon.com/128/1606/1606308.png" class="img-fluid mt-3" width="80px"
+            alt="error4044">
+          <div class="interior-content-details">
+
+            <h5 class="m-2">Home Decoration</h5>
+
+            <p class="m-2">Lorem ipsum dolor sit amet., ipsum. ipsum dolor sit amet consectetur.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row text-center justify-content-center">
+
+        <div class="col-12 border m-3  col-lg-3 col-md-3 col-sm-5 wow animate__animated animate__lightSpeedInLeft">
+          <img src="https://cdn-icons-png.flaticon.com/512/3305/3305926.png" class="img-fluid mt-3" width="80px"
+            alt="error4044">
+          <div class="interior-content-details">
+
+            <h5 class="m-2">Kitchen Design</h5>
+
+            <p class="m-2">Lorem ipsum dolor sit amet., ipsum. ipsum dolor sit amet consectetur.</p>
+          </div>
+        </div>
+
+        <div class="col-12 border m-3 col-lg-4 col-md-4 col-sm-5  wow animate__animated animate__rotateInDownLeft">
+          <img src="https://cdn-icons-png.flaticon.com/128/5970/5970969.png" class="img-fluid mt-3" width="80px"
+            alt="error4044">
+          <div class="interior-content-details">
+
+            <h5 class="m-2">Quality Of Work</h5>
+
+            <p class="m-2">Lorem ipsum dolor sit amet., ipsum. ipsum dolor sit amet consectetur.</p>
+          </div>
+        </div>
+
+        <div class="col-12 border m-3 col-lg-3 col-md-3 col-sm-7  wow animate__animated animate__lightSpeedInRight">
+          <img src="https://cdn-icons-png.flaticon.com/128/3374/3374450.png" class="img-fluid mt-3" width="80px"
+            alt="error4044">
+          <div class="interior-content-details">
+
+            <h5 class="m-2">Beautiful Decoration</h5>
+
+            <p class="m-2">Lorem ipsum dolor sit amet., ipsum. ipsum dolor sit amet consectetur.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- About Company Heading -->
+      <div class="row  p-4 text-center ">
+        <div class="col  wow animate__animated animate__lightSpeedInRight">
+          <h1>About Our Company</h1>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </div>
+      </div>
+    </div>
+
+    <!--About Company Photos-->
+    <div class="container-fluid">
+      <div class="row text-center justify-content-center">
+        <div class="col-12 col-lg-5">
+          <img src="Images/int-2.jpg" class="img-fluid border rounded-3" width="650px" alt="">
+        </div>
+        <div class="col  col-lg-6 mt-xl-0 mt-5 mt-lg-0">
+          <h3>Providing The Best Architecture & Interior Design Service</h3>
+
+          <div class="row mt-5 mt-lg-5">
+            <div class="col-12 col-sm-6 col-lg-12">
+              <img src="https://cdn-icons-png.flaticon.com/128/1974/1974037.png" width="80px" class="img-fluid "
+                alt="error4044">
+              <div class="internal-content-about-company">
+                <h4>Exclusive Design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-12 mt-lg-5 mb-5">
+              <img src="https://cdn-icons-png.flaticon.com/128/9934/9934308.png" width="80px" class="img-fluid"
+                alt="error4044">
+              <div class="internal-content-about-company">
+                <h4>Professional Team</h4>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Youtube content & Secound Banner -->
+      <div class="row">
+        <div class="col-12 m-0 p-0 position-relative justify-content-center">
+          <img src="./Images/back-imt.png" class="w-100 img-fluid" alt="eligendi">
+
+          <!-- play button -->
+          <div class="plybtnbox text-center ">
+            <a href="https://youtu.be/_MPs3YmRwTA" target="_blank"><i class="fa-solid fa-play text-white playbtn"></i>
+              <i class="fa-solid fa-play  playbtn plybtn2"></i></a>
+            <h1>Our Company Make You Feel More Confident</h1>
+            <p>Lorem ipsum dolor sit amet. ipsum dolor sit amet consectetur.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <!-- About Company Heading -->
+        <div class="row  p-4 text-center ">
+          <div class="col  wow animate__animated animate__flipInX">
+            <h1>We Bring The Best Things</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Company Ceo -->
+    <div class="container-fluid mt-5">
+      <div class="row text-center m-lg-2">
+        <div class="col-12 col-lg-6 ">
+          <img src="./Images/ceo.png" class="img-fluid " width="400px" alt="error4044">
+        </div>
+        <div class="col-12 col-lg-6 text-start ceo-details">
+          <h2>Providing the best architecture & interior design services</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil optio eius harum asperiores tempora nisi
+            saepe
+            voluptates, illum quis quam.'' ipsum dolor, sit amet consectetur adipisicing elit. Inventore vero sit
+            incidunt
+            ipsam voluptas sapiente. ipsum dolor sit amet. ipsum dolor sit amet consectetur adipisicing elit. Facere,
+            quia?</p>
+          <h3>JOHAN DOE</h3>
+          <p id="founder">Founder - interior Studio</p>
+          <img src="./Images/signature.png" class="img-fluid" width="60px" alt="">
+        </div>
+      </div>
+
+
+      <div class="row">
+
+        <!-- Design Company Heading -->
+        <div class="row  p-4 text-center mb-5 mt-5 ">
+          <div class="col  wow animate__animated animate__flipInX">
+            <h1>Through Exceptional Design</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container-fluid justify-content-center mt-5">
+      <div class="row  justify-content-center">
+        <div class="col-12 col-lg-5 text-center">
+          <img src="Images/int-3.jpg" class=" mt-5 img-fluid border rounded-3" width="650px" alt="">
+        </div>
+        <div class="col  col-lg-6 mt-xl-0 mt-5 mt-lg-0 ">
+          <h3 class="text-center">Providing The Best Architecture & Interior Design Service</h3>
+
+          <div class="row mt-5  justify-content-center    mt-lg-5">
+            <div class="col-12 col-sm-6 col-lg-12">
+              <h4>Decoration</h4>
+              <div class="progress">
+                <div class="progress-bar bg-info" role="progressbar" style="width: 25%" aria-valuenow="25"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <div class="internal-content-about-company">
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-12 mt-lg-5 ">
+              <h4>Interior</h4>
+              <div class="progress">
+                <div class="progress-bar " role="progressbar" style="width: 55%" aria-valuenow="25" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+              <div class="internal-content-about-company">
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-12 mt-lg-5 ">
+              <h4>Architecture</h4>
+              <div class="progress  ">
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="25"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <div class="internal-content-about-company">
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Third Banner -->
+    <!-- First Banner  -->
+    <div class="container-fluid p-0 overflow-hidden">
+      <div class="row m-0 p-0 banrow">
+        <div class="col-12 p-0 m-0  position-relative  bancol h-auto">
+          <!-- Banner Iamage -->
+          <img src="./Images/int-4.jpg" alt="" class="img-fluid rounded-3 shadow-lg w-100 border">
+
+          <!-- Banner Internal content -->
+          <div class="banner-content  wow animate__animated  ">
+            <h1 class="w-75"> <span class="text-info">D</span>esigned & Worked by the Latest Integration</h1><br>
+            <p>Increase Productivity With A Simple To-Do Managing Your Personal Budgets.lorem2</p>
+            <p class=" w-75  ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quasi aspernatur
+              architecto tenetur, dicta eligendi sequi mollitia temporibus! Possimus veritatis</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- About Company Heading -->
+      <div class="row mb-5 mt-5">
+        <div class="row  p-4 text-center ">
+          <div class="col  wow animate__animated animate__">
+            <h1>Providing Best Home Decor</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Products  -->
+    <div class="container-fluid mt-5 justify-content-center justyfy ">
+      <!-- Product 1 -->
+      <div class="row justify-content-center">
+        <div class="col-12 col-sm-5 col-lg-4 text-center">
+          <img src="./Images/product-1.png" class="img-fluid mb-5" alt="error4044">
+        </div>
+        <div class="col-12 col-sm-5 col-lg-4 mt-5">
+          <h2>Proven Process best result.</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi quae voluptas corrupti nihil hic tempore.
+          </p>
+          <button class="btn btn-outline-dark  " type="button">Read More</button>
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="row justify-content-center">
+        <div class="col-12 col-sm-5 col-lg-4 mt-5">
+          <h2>Proven Best Home Decor</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi quae voluptas corrupti nihil hic tempore.
+          </p>
+          <button class="btn btn-outline-primary  rounded-pill " type="button">Read More</button>
+        </div>
+        <div class="col-12 col-sm-5 col-lg-4 text-center">
+          <img src="./Images/product-2.png" class="img-fluid mb-5" alt="error4044">
+        </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="row justify-content-center prdct-3">
+        <div class="col-12 col-sm-5 col-lg-4 text-center">
+          <img src="./Images/product-3.png" class="img-fluid" alt="error4044">
+        </div>
+        <div class="col-12 col-sm-5 col-lg-4 prdct-3-1 ">
+          <h2>Happiness what you love</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi quae voluptas corrupti nihil hic tempore.
+          </p>
+          <button class="btn btn-outline-danger " type="button">Read More</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Client Section -->
+    <div class="container-fluid ">
+      <div class="row bg-client justify-content-center p-4">
+        <div class="col-5 col-sm-3 col-md-2 ">
+          <img src="./Images/clients-1.png" alt="">
+        </div>
+        <div class="col-5 col-sm-3 col-md-2 ">
+          <img src="./Images/clients-2.png" alt="">
+        </div>
+        <div class="col-5 col-sm-3 col-md-2 ">
+          <img src="./Images/clients-3.png" alt="">
+        </div>
+        <div class="col-5 col-sm-3 col-md-2 ">
+          <img src="./Images/clients-4.png" alt="">
+        </div>
+      </div>
+
+      <!-- Engineer Company Heading -->
+      <div class="row mb-5 mt-5">
+        <div class="row  p-4 text-center ">
+          <div class="col  wow animate__animated animate__">
+            <h1>Our Expert Engineers</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid text-center ">
+      <div class="row   justify-content-center ">
+        <!-- Card 1 -->
+        <div class="card" style="width: 18rem;">
+          <img src="./Images/team-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">John Smith</h5>
+            <p class="card-text">Advisor</p>
+          </div>
+          <div class="card-footer">
+            <a href="https://www.facebook.com/" target="_blank"><img
+                src="https://cdn-icons-png.flaticon.com/128/1312/1312139.png" class="img-fluid" width="30px" alt=""></a>
+            <a href="https://twitter.com/login?lang=en" target="_blank"><img
+                src="https://cdn-icons-png.flaticon.com/128/3670/3670211.png" class="img-fluid" width="30px" alt=""></a>
+            <a href="https://in.linkedin.com/" target="_blank"><img
+                src="https://cdn-icons-png.flaticon.com/128/1377/1377213.png" class="img-fluid" width="30px" alt=""></a>
+
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="card" style="width: 18rem;">
+          <img src="./Images/team-2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Joe Sloat</h5>
+            <p class="card-text">Manager</p>
+          </div>
+          <div class="card-footer">
+            <a href="https://www.facebook.com/" target="_blank"><img
+                src="https://cdn-icons-png.flaticon.com/128/1312/1312139.png" class="img-fluid" width="30px" alt=""></a>
+            <a href="https://twitter.com/login?lang=en" target="_blank"><img
+                src="https://cdn-icons-png.flaticon.com/128/3670/3670211.png" class="img-fluid" width="30px" alt=""></a>
+            <a href="https://in.linkedin.com/" target="_blank"><img
+                src="https://cdn-icons-png.flaticon.com/128/1377/1377213.png" class="img-fluid" width="30px" alt=""></a>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="card" style="width: 18rem;">
+          <img src="./Images/team-3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Smith Deo</h5>
+            <p class="card-text">Designer</p>
+          </div>
+          <div class="card-footer">
+            <a href="https://www.facebook.com/" target="_blank"><img
+                src="https://cdn-icons-png.flaticon.com/128/1312/1312139.png" class="img-fluid" width="30px" alt=""></a>
+            <a href="https://twitter.com/login?lang=en" target="_blank"><img
+                src="https://cdn-icons-png.flaticon.com/128/3670/3670211.png" class="img-fluid" width="30px" alt=""></a>
+            <a href="https://in.linkedin.com/" target="_blank"><img
+                src="https://cdn-icons-png.flaticon.com/128/1377/1377213.png" class="img-fluid" width="30px" alt=""></a>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Engineer Company Heading -->
+      <div class="row mb-5 mt-5 ">
+        <div class="row  p-4 text-center ">
+          <div class="col  wow animate__animated animate__">
+            <h1>Our Outstanding
+              Latest Proejcts & Works</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Gallery -->
+    <div class="container gallery">
+      <div class="row justify-content-center">
+        <div class="col-md-3 col-sm-4 col-md-3 mb-4 mb-lg-0">
+          <img src="./Images/int-1.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
+
+          <img src="./Images/int-6.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Wintry Mountain Landscape" />
+        </div>
+
+        <div class="col-md-3 col-sm-4  mb-4 mb-lg-0">
+          <img src="./Images/int-7.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Mountains in the Clouds" />
+
+          <img src="./Images/int-5.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
+        </div>
+
+        <div class="col-md-3 col-sm-4 mb-4 mb-lg-0">
+          <img src="./Images/int-3.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Waves at Sea" />
+
+          <img src="./Images/ingt-8.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Yosemite National Park" />
+        </div>
+      </div>
+    </div>
+
+    <!-- contact line -->
+    <div class="container-fluid">
+      <div class="row bg-dark text-white text-center p-4">
+        <div class="col-12 d-flex text-center justify-content-center me-5">
+          <h3>Need Any Interior Design Help?</h3><button class="btn btn-outline-light rounded-pill  mx-5">Contact With
+            Us</button>
+        </div>
+      </div>
+
+
+      <!-- Creative Plan  Company Heading -->
+      <div class="row mb-5 mt-5 ">
+        <div class="row  p-4 text-center ">
+          <div class="col  wow animate__animated animate__">
+            <h1>Creative Plans Budget</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pricing Card -->
+
+    <div class="container-lg">
+      <div class="row justify-content-center">
+        <div class="card text-center m-3" style="width: 18rem;">
+          <div class="card-body">
+            <h4 class="card-title">Personal</h4>
+            <h1 class="card-title fontsize"><span class="align-text-top">$1</span>99</h1>
+            <h5 class="card-title">Per Month</h5>
+
+            <p class="card-text txt-justy lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+              delectus
+              at, adipisci excepturi laudantium <span class="text-decoration-line-through">neque quod provident. Ea
+                tempora</span> </p>
+            <a href="#" class="btn btn-outline-dark rounded-pill ps-4 pe-4">Get Started</a>
+          </div>
+        </div>
+        <div class="card text-center m-3" style="width: 18rem;">
+          <div class="card-body">
+            <h4 class="card-title">Personal</h4>
+            <h1 class="card-title fontsize"><span class="align-text-top">$2</span>99</h1>
+            <h5 class="card-title">Per Month</h5>
+
+            <p class="card-text txt-justy lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+              delectus
+              at, adipisci excepturi laudantium neque quod provident. Ea tempora</span> </p>
+            <a href="#" class="btn btn-outline-primary rounded-pill ps-4 pe-4">Get Started</a>
+          </div>
+        </div>
+        <div class="card text-center m-3" style="width: 18rem;">
+          <div class="card-body">
+            <h4 class="card-title">Personal</h4>
+            <h1 class="card-title fontsize"><span class="align-text-top">$3</span>99</h1>
+            <h5 class="card-title">Per Month</h5>
+
+            <p class="card-text txt-justy lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+              delectus
+              at, adipisci excepturi laudantium neque quod provident. Ea tempora</span> </p>
+            <a href="#" class="btn btn-outline-warning rounded-pill ps-4 pe-4">Get Started</a>
+          </div>
+        </div>
+        <div class="card text-center m-3" style="width: 18rem;">
+          <div class="card-body">
+            <h4 class="card-title">Personal</h4>
+            <h1 class="card-title fontsize"><span class="align-text-top">$
+                40</span>99</h1>
+            <h5 class="card-title">Per Month</h5>
+
+            <p class="card-text txt-justy lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+              delectus
+              at, adipisci excepturi laudantium <span class="text-decoration-line-through">neque quod provident. Ea
+                tempora</span> </p>
+            <a href="#" class="btn btn-outline-danger rounded-pill ps-4 pe-4">Get Started</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Creative Plan  Company Heading -->
+      <div class="row mb-5 mt-5 ">
+        <div class="row  p-4 text-center ">
+          <div class="col  wow animate__animated animate__">
+            <h1>Our Latest Blog</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Blog Container -->
+    <div class="conatiner-fluid overflow-hidden">
+      <div class="row justify-content-center">
+        <div class="card m-3" style="width: 25rem;">
+          <img src="./Images/int -12.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title">JANUARY 10, 2023 | SEO</h6>
+            <h2 class="card-title">Blog 1 </h2>
+            <p class="card-text">Lorem ipsum dolor sit amet., ipsum dolor. ipsum dolor sit, amet consectetur adipisicing
+              elit.</p>
+            <a href="#" class="btn btn-outline-warning">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card m-3" style="width: 25rem;">
+          <img src="./Images/int-11.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title">JANUARY 10, 2023 | SEO</h6>
+            <h2 class="card-title">Blog 2 </h2>
+            <p class="card-text">Lorem ipsum dolor sit amet., ipsum dolor. ipsum dolor sit, amet consectetur adipisicing
+              elit.</p>
+            <a href="#" class="btn btn-outline-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card m-3" style="width: 25rem;">
+          <img src="./Images/int-134.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title">JANUARY 10, 2023 | SEO</h6>
+            <h2 class="card-title">Blog 3 </h2>
+            <p class="card-text">Lorem ipsum dolor sit amet., ipsum dolor. ipsum dolor sit, amet consectetur adipisicing
+              elit.</p>
+            <a href="#" class="btn btn-outline-danger">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+
+  <footer class="bg-secondary bg-gradient text-center text-white mt-5">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="">
+        <!-- Facebook -->
+        <a class="btn text-white btn-floating m-1" style="background-color: #3b5998;" href="#!" role="button"><i
+            class="fab fa-facebook-f"></i></a>
+
+        <!-- Twitter -->
+        <a class="btn text-white btn-floating m-1" style="background-color: #55acee;" href="#!" role="button"><i
+            class="fab fa-twitter"></i></a>
+
+        <!-- Google -->
+        <a class="btn text-white btn-floating m-1" style="background-color: #dd4b39;" href="#!" role="button"><i
+            class="fab fa-google"></i></a>
+
+        <!-- Instagram -->
+        <a class="btn text-white btn-floating m-1" style="background-color: #ac2bac;" href="#!" role="button"><i
+            class="fab fa-instagram"></i></a>
+
+        <!-- Linkedin -->
+        <a class="btn text-white btn-floating m-1" style="background-color: #0082ca;" href="#!" role="button"><i
+            class="fab fa-linkedin-in"></i></a>
+        <!-- Github -->
+        <a class="btn text-white btn-floating m-1" style="background-color: #333333;" href="#!" role="button"><i
+            class="fab fa-github"></i></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  </footer>
+
+  <!-- Footer -->
+  <footer class="bg-dark  text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+
+
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Sign up for our newsletter</strong>
+              </p>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Email input -->
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example21" class="form-control" />
+                <label class="form-label" for="form5Example21">Email address</label>
+              </div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-auto">
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-outline-light mb-4">
+                Subscribe
+              </button>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Form -->
+
+      <!-- Section: Text -->
+      <section class="mb-4">
+        <p>
+
+        </p>
+      </section>
+      <!-- Section: Text -->
+
+      <!-- Section: Links -->
+      <section>
+        <!--Grid row-->
+        <div class="row justify-content-between">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <img src="./Images/logo-light.png" class="img-fluid mb-4" alt="">
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, optio. Recusandae maiores eos </p>
+              </li>
+
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h4 class="text-uppercase">CONTACT INFO</h4>
+
+            <ul class="list-unstyled  mb-0">
+              <li>
+                <p>interior Studio
+                  007,The Pilo Wood
+                  Adelaide,S2 8GY.</p>
+              </li>
+              <li>
+                Phone: +44 1234567890
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h4 class="text-uppercase">MORE LINKS</h4>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Latest News</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Have Questions</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">About interior</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Privacy & Policies</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright: <h4 class="text-danger">DESIGN BY PRATIK JADAV</h4>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="Js/Counter.js"></script>
+  <script src="Js/Headline.js"></script>
+
+</body>
+<!-- Script For Dropdown -->
+<script>
+  $(document).ready(function () {
+
+    $("#home-click").click(function () {
+      $(".dropcontent").slideToggle();
+      $(".dropcontent").css("display", "flex");
+    });
+
+    $(window).dblclick(function () {
+      $(".dropcontent").slideToggle();
+    })
+
+    // script for header
+
+    $(window).scroll(function () {
+
+      if ($(window).scrollTop() > 100) {
+        $("#header111").addClass("fixed")
+        $("#header111").addClass("animate__bounceInDown")
+      } else {
+        $("#header111").removeClass("fixed")
+
+      }
+
+    })
+
+    // 
+    // var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+    //   target: '#header111'
+    // })
+
+  });
+
+  // wow Js Script
+  new WOW().init();
+
+</script>
+
+</html>
